@@ -13,8 +13,8 @@ public class DogTest {
 
 Dog myDog;
 	
+
 	@BeforeClass
-	
 	public static void before() {
 		System.out.println("before any tests");
 		
@@ -26,7 +26,7 @@ Dog myDog;
 	}
 	
 	//function that will before every test is called as setUp
-	//function that will run after every test is called as teatDowns
+	//function that will run after every test is called as tearDown
 	@Before
 	public void setUp() {
 		System.out.println("This is run before");
